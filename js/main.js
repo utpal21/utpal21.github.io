@@ -70,7 +70,6 @@
             customScroll();
         });
     $(document).on("ready", function () {
-        demoPanel;
         var $portfolio_container = $("#portfolio_grid");
         $portfolio_container.imagesLoaded(function () {
             setTimeout(function () {
